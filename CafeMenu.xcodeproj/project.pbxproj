@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30000000000000000000001 /* CafeMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* CafeMenuApp.swift */; };
+		A30000000000000000000002 /* CafeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* CafeColors.swift */; };
+		A30000000000000000000003 /* CafeMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* CafeMotion.swift */; };
+		A30000000000000000000004 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* MenuItem.swift */; };
+		A30000000000000000000005 /* CafeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* CafeSession.swift */; };
+		A30000000000000000000006 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* BackButton.swift */; };
+		A30000000000000000000007 /* FoodOrb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* FoodOrb.swift */; };
+		A30000000000000000000008 /* FoodCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* FoodCanvasView.swift */; };
+		A30000000000000000000009 /* ARPlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* ARPlacementView.swift */; };
+		A3000000000000000000000A /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* CartView.swift */; };
+		A3000000000000000000000B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* RootView.swift */; };
+		A30000000000000000000010 /* CategoryDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* CategoryDialView.swift */; };
+		A3000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* Assets.xcassets */; };
+		A3000000000000000000000D /* CafeMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* CafeMenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A70000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000001;
+			remoteInfo = CafeMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* CafeMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeMenuApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* CafeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeColors.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* CafeMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeMotion.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* CafeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeSession.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* FoodOrb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrb.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* FoodCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCanvasView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* ARPlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPlacementView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* CategoryDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDialView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000000D /* CafeMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeMenuUITests.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* CafeMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000F /* CafeMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000003 /* CafeMenu */,
+				A40000000000000000000007 /* CafeMenuUITests */,
+				A40000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000E /* CafeMenu.app */,
+				A2000000000000000000000F /* CafeMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* CafeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* CafeMenuApp.swift */,
+				A40000000000000000000004 /* Theme */,
+				A40000000000000000000005 /* Model */,
+				A40000000000000000000006 /* Views */,
+				A2000000000000000000000C /* Assets.xcassets */,
+			);
+			path = CafeMenu;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000002 /* CafeColors.swift */,
+				A20000000000000000000003 /* CafeMotion.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000004 /* MenuItem.swift */,
+				A20000000000000000000005 /* CafeSession.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000006 /* BackButton.swift */,
+				A20000000000000000000007 /* FoodOrb.swift */,
+				A20000000000000000000008 /* FoodCanvasView.swift */,
+				A20000000000000000000009 /* ARPlacementView.swift */,
+				A2000000000000000000000A /* CartView.swift */,
+				A2000000000000000000000B /* RootView.swift */,
+				A20000000000000000000010 /* CategoryDialView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000007 /* CafeMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000D /* CafeMenuUITests.swift */,
+			);
+			path = CafeMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000001 /* CafeMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000000000000000000002 /* Build configuration list for PBXNativeTarget "CafeMenu" */;
+			buildPhases = (
+				A50000000000000000000001 /* Sources */,
+				A50000000000000000000002 /* Frameworks */,
+				A50000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafeMenu;
+			productName = CafeMenu;
+			productReference = A2000000000000000000000E /* CafeMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000003 /* CafeMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000000000000000000003 /* Build configuration list for PBXNativeTarget "CafeMenuUITests" */;
+			buildPhases = (
+				A50000000000000000000004 /* Sources */,
+				A50000000000000000000005 /* Frameworks */,
+				A50000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A70000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = CafeMenuUITests;
+			productName = CafeMenuUITests;
+			productReference = A2000000000000000000000F /* CafeMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					A10000000000000000000001 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					A10000000000000000000003 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = A10000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A60000000000000000000001 /* Build configuration list for PBXProject "CafeMenu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000001 /* CafeMenu */,
+				A10000000000000000000003 /* CafeMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3000000000000000000000C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30000000000000000000001 /* CafeMenuApp.swift in Sources */,
+				A30000000000000000000002 /* CafeColors.swift in Sources */,
+				A30000000000000000000003 /* CafeMotion.swift in Sources */,
+				A30000000000000000000004 /* MenuItem.swift in Sources */,
+				A30000000000000000000005 /* CafeSession.swift in Sources */,
+				A30000000000000000000006 /* BackButton.swift in Sources */,
+				A30000000000000000000007 /* FoodOrb.swift in Sources */,
+				A30000000000000000000008 /* FoodCanvasView.swift in Sources */,
+				A30000000000000000000009 /* ARPlacementView.swift in Sources */,
+				A3000000000000000000000A /* CartView.swift in Sources */,
+				A3000000000000000000000B /* RootView.swift in Sources */,
+				A30000000000000000000010 /* CategoryDialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3000000000000000000000D /* CafeMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A70000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000001 /* CafeMenu */;
+			targetProxy = A70000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A60000000000000000000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A60000000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cafe Menu";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cafe Menu uses the camera to place desserts on your table.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cafemenu.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A60000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cafe Menu";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cafe Menu uses the camera to place desserts on your table.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cafemenu.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A60000000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cafemenu.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = CafeMenu;
+			};
+			name = Debug;
+		};
+		A60000000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cafemenu.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = CafeMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000000000000000000001 /* Build configuration list for PBXProject "CafeMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60000000000000000000004 /* Debug */,
+				A60000000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000000000000000000002 /* Build configuration list for PBXNativeTarget "CafeMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60000000000000000000006 /* Debug */,
+				A60000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000000000000000000003 /* Build configuration list for PBXNativeTarget "CafeMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60000000000000000000008 /* Debug */,
+				A60000000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000002 /* Project object */;
+}
